@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="contact-icons">
           {/* EMAIL — FIX MOBILE */}
           <a
-            href="mailto:garudacoffeepecalungan@gmail.com?subject=Tanya%20Produk%20Kopi%20Garuda&body=Halo%20Kopi%20Garuda,%0ASaya%20ingin%20bertanya%20tentang%20produk%20kopi%20Anda."
+            href="mailto:garudacoffeepecalungan@gmail.com?subject=Tanya%20Produk%20Garuda%20Coffee&body=Halo%20Garuda%20Coffee,%0ASaya%20ingin%20bertanya%20tentang%20produk%20kopi%20Anda."
             className="contact-icon-link"
             aria-label="Kirim Email"
           >
