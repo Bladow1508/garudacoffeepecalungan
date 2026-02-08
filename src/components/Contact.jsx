@@ -11,13 +11,11 @@ const Contact = () => {
         </p>
 
         <div className="contact-icons">
-          {/* GMAIL */}
+          {/* EMAIL — FIX MOBILE */}
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=garudacoffeepecalungan@gmail.com&su=Tanya%20Produk%20Kopi%20Garuda&body=Halo%20Kopi%20Garuda,%0ASaya%20ingin%20bertanya%20tentang%20produk%20kopi%20Anda."
-            target="_blank"
-            rel="noreferrer"
+            href="mailto:garudacoffeepecalungan@gmail.com?subject=Tanya Produk Kopi Garuda&body=Halo Kopi Garuda,%0ASaya ingin bertanya tentang produk kopi Anda."
             className="contact-icon-link"
-            aria-label="Kirim Email via Gmail"
+            aria-label="Kirim Email"
           >
             <MdEmail />
           </a>
