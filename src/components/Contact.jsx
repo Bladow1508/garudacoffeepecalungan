@@ -44,7 +44,7 @@ const Contact = () => {
         </div>
 
         <p className="contact-footer">
-          © 2026 Kopi Garuda — Dari Desa untuk Secangkir Kopi Terbaikmu ☕
+          © 2026 Kopi Garuda — Beli Kopi Gratis Ngopi ☕
         </p>
       </div>
     </section>
