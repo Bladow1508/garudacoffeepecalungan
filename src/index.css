@@ -486,6 +486,25 @@ section {
 }
 
 /* ===============================
+   GLOBAL FIX OVERFLOW MOBILE
+================================ */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Gambar responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===============================
    RESPONSIVE BREAKPOINTS
 ================================ */
 
@@ -517,10 +536,11 @@ section {
     display: flex;
   }
 
+  /* PERBAIKAN OVERFLOW NAVBAR */
   .nav-menu {
     position: fixed;
     top: 70px;
-    right: -100%;
+    right: -260px; /* ubah dari -100% agar tidak bikin scroll */
     width: 260px;
     height: calc(100vh - 70px);
     background: #F3ECE4;
@@ -564,7 +584,8 @@ section {
     font-size: 30px;
   }
 
-  .cta, .product-new-btn {
+  .cta,
+  .product-new-btn {
     width: 100%;
     text-align: center;
   }
