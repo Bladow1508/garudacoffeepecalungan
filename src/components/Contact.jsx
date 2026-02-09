@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact-container">
         <h2>Hubungi Kami</h2>
         <p className="contact-subtitle">
-          Klik ikon di bawah untuk terhubung langsung dengan Kopi Garuda
+          Klik ikon di bawah untuk terhubung langsung dengan Garuda Coffee
         </p>
 
         <div className="contact-icons">
