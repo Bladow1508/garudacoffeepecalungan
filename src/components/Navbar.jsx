@@ -68,21 +68,21 @@ const Navbar = () => {
 
         <li>
           <a
-            href="#layanan"
-            className={active === "layanan" ? "active" : ""}
-            onClick={() => handleClick("layanan")}
-          >
-            Layanan
-          </a>
-        </li>
-
-        <li>
-          <a
             href="#product"
             className={active === "product" ? "active" : ""}
             onClick={() => handleClick("product")}
           >
             Produk
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#about"
+            className={active === "about" ? "active" : ""}
+            onClick={() => handleClick("about")}
+          >
+            Tentang Kami
           </a>
         </li>
 

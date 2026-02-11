@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Services from './components/Services'
+import AboutUs from './components/AboutUs'
 import Products from './components/Products'
 import Contact from './components/Contact'
 
@@ -9,8 +9,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Services />
       <Products />
+      <AboutUs />
       <Contact />
     </>
   )
