@@ -22,7 +22,7 @@ const Contact = () => {
 
           {/* WHATSAPP */}
           <a
-            href="https://wa.me/62823241205608"
+            href="https://wa.me/6282324120560"
             target="_blank"
             rel="noreferrer"
             className="contact-icon-link whatsapp"
